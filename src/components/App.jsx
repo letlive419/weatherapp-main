@@ -1,6 +1,8 @@
 import React from "react";
 import { ReactDOM} from "react";
 import Weather from "./Weather";
+import Search from "./Search";
+import { useState } from "react";
 
 
 
@@ -8,9 +10,9 @@ function App(){
     
     return (
     <div>
-        <h1></h1>
+        <Search />
        
-        <Weather />
+        
     </div>
     )
 }
